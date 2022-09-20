@@ -1,0 +1,29 @@
+table, th, td {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.tablesection{
+  background-color: #fff;
+}
+.tablemain{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3rem;
+}
+table{
+  width: 100%;
+}
+
+th{
+  height: 50px;
+  vertical-align: middle;
+}
+
+td{
+  height: 80px;
+  vertical-align: middle;
+}
+tr:nth-child(even)
+{
+  background-color: #f2f2f2;
+}
